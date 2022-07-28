@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+footer {
+    background: #d4aa4f;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    color: floralwhite;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: cente;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-family: "Bookman" ;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: "Garamond";
+}
+.hero {
+    width: 100%;
+    height: 100%;
+    background-image: url(portt.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 5%;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: rgb(250, 218, 158);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: brown;
+    transition: 1;
+}
+
+.bar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.icon  {
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 40%;
+}
+.box {
+    text-align: center;
+    min-height: 400px;
+}
+.card{
+    height: 300px;
+    width: 80%;
+    padding: 20px 35px;
+    background: #d4aa4f;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 115px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+
+.card img{
+    width: 500px;
+    height: 300px;
+    float: left;
+    vertical-align: middle;
+    border-radius: 3ch;
+
+}
+.card ion-icon {
+    font-size: 55px;
+    display: block;
+    text-align: center;
+    margin: 25px 140px;
+    color:rgb(105, 72, 11);
+}
+.card2{
+    height: 300px;
+    width: 80%;
+    padding: 20px 35px;
+    background: #d4aa4f;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 115px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.card2 img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    vertical-align: middle;
+    border-radius: 3ch;
+}
+.card2 ion-icon {
+    font-size: 55px;
+    display: block;
+    text-align: center;
+    margin: 25px 140px;
+    color:rgb(105, 72, 11);
+}
+
+h5 {
+    color:rgb(105, 72, 11);
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 2ch;
+    display: inline-block;
+    font-size: 27px;
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family: "courier new";
+}
+
+.par p{
+    color:rgb(105, 72, 11);
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-family: 'Georgia';
+}
+
+.card .button{
+    background-color: rgb(105, 72, 11);
+    color: rgb(226, 197, 144);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 1s;
+    margin-top: 3ch;
+}
+
+.card2 .button{
+    background-color: rgb(105, 72, 11);
+    color: rgb(226, 197, 144);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 1s;
+    margin-top: 3ch;
+}
